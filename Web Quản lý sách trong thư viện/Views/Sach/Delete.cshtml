@@ -1,0 +1,18 @@
+﻿@model Quản_Lý_Sách.Models.Sach
+
+@{
+    ViewBag.Title = "Xóa sách";
+}
+
+<h2>Xóa sách</h2>
+
+<p>Bạn có chắc chắn muốn xóa sách <strong>@Model.TenSach</strong>?</p>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.MaSach)
+
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    @Html.ActionLink("Quay lại", "Index")
+}

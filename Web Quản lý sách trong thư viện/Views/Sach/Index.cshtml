@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Quản_Lý_Sách.Models.Sach>
+
+@{
+    ViewBag.Title = "Danh sách sách";
+}
+
+<h2>Danh sách sách</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>MaSach</th>
+            <th>TenSach</th>
+            <th>TacGia</th>
+            <th>NamXuatBan</th>
+            <th>NhaXuatBan</th>
+            <th>SoLuong</th>
+            <th>Gia</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaSach</td>
+                <td>@item.TenSach</td>
+                <td>@item.TacGia</td>
+                <td>@item.NamXuatBan</td>
+                <td>@item.NhaXuatBan</td>
+                <td>@item.SoLuong</td>
+                <td>@item.Gia</td>
+                <td>
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.MaSach }) |
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.MaSach }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.MaSach })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.ActionLink("Thêm sách mới", "Create")

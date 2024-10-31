@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Trang chủ quản lý thư viện";
+}
+
+<h2>Trang chủ quản lý thư viện</h2>
+<p>Chào mừng bạn đến với trang quản lý thư viện! Vui lòng chọn một chức năng:</p>
+
+<div class="row">
+    <div class="col-md-3">
+        <a href="@Url.Action("Index", "Sach")" class="btn btn-primary btn-block">Quản lý sách</a>
+    </div>
+    <div class="col-md-3">
+        <a href="@Url.Action("Index", "TheLoai")" class="btn btn-primary btn-block">Quản lý thể loại</a>
+    </div>
+    <div class="col-md-3">
+        <a href="@Url.Action("Index", "DocGia")" class="btn btn-primary btn-block">Quản lý độc giả</a>
+    </div>
+    <div class="col-md-3">
+        <a href="@Url.Action("Index", "PhieuMuon")" class="btn btn-primary btn-block">Quản lý phiếu mượn</a>
+    </div>
+    <div class="col-md-3">
+        <a href="@Url.Action("Index", "AdminAccount")" class="btn btn-primary btn-block">Quản lý tài khoản quản trị</a>
+    </div>
+</div>

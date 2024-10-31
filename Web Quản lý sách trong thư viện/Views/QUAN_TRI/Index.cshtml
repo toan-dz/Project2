@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Web_Quản_lý_sách_trong_thư_viện.Models.QUAN_TRI>
+
+@{
+    ViewBag.Title = "Danh sách Quản Trị";
+}
+
+<h2>Danh sách Quản Trị</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().TenDangNhap)</th>
+            <th>@Html.DisplayNameFor(model => model.First().QuyenHan)</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.TenDangNhap)</td>
+                <td>@Html.DisplayFor(modelItem => item.QuyenHan)</td>
+                <td>
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.MaQuanTri }) |
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.MaQuanTri }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.MaQuanTri })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    @Html.ActionLink("Thêm Quản Trị Mới", "Create")
+</p>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+

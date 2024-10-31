@@ -1,0 +1,33 @@
+﻿@model Quản_Lý_Sách.Models.Sach
+
+@{
+    ViewBag.Title = "Chi tiết sách";
+}
+
+<h2>Chi tiết sách</h2>
+
+<div>
+    <h4>@Model.TenSach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>MaSach</dt>
+        <dd>@Model.MaSach</dd>
+        <dt>TacGia</dt>
+        <dd>@Model.TacGia</dd>
+        <dt>NamXuatBan</dt>
+        <dd>@Model.NamXuatBan</dd>
+        <dt>NhaXuatBan</dt>
+        <dd>@Model.NhaXuatBan</dd>
+        <dt>SoLuong</dt>
+        <dd>@Model.SoLuong</dd>
+        <dt>Gia</dt>
+        <dd>@Model.Gia</dd>
+        <dt>MaTheLoai</dt>
+        <dd>@Model.MaTheLoai</dd>
+    </dl>
+</div>
+
+<div>
+    @Html.ActionLink("Sửa", "Edit", new { id = Model.MaSach }) |
+    @Html.ActionLink("Quay lại", "Index")
+</div>

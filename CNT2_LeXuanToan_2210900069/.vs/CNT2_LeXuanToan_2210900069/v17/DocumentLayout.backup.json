@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|F:\\Project2\\CNT2_LeXuanToan_2210900069\\cnt2_lexuantoan_2210900069\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\content\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\content\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|F:\\Project2\\CNT2_LeXuanToan_2210900069\\cnt2_lexuantoan_2210900069\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\controllers\\sachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\controllers\\sachescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\controllers\\the_loaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\controllers\\the_loaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\controllers\\phieu_muoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\controllers\\phieu_muoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\controllers\\doc_giacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\controllers\\doc_giacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\controllers\\quan_tricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\controllers\\quan_tricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\models\\doc_gia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\models\\doc_gia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|f:\\project2\\cnt2_lexuantoan_2210900069\\cnt2_lexuantoan_2210900069\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|F:\\Project2\\CNT2_LeXuanToan_2210900069\\cnt2_lexuantoan_2210900069\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|F:\\Project2\\CNT2_LeXuanToan_2210900069\\cnt2_lexuantoan_2210900069\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{72075CF3-AFBB-45D1-9501-6273C42C0225}|CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069.csproj|solutionrelative:cnt2_lexuantoan_2210900069\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "home.css",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Content\\home.css",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Content\\home.css",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Content\\home.css",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Content\\home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-01T08:45:15.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "THE_LOAIController.cs",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\THE_LOAIController.cs",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Controllers\\THE_LOAIController.cs",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\THE_LOAIController.cs",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Controllers\\THE_LOAIController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:37:54.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SACHesController.cs",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\SACHesController.cs",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Controllers\\SACHesController.cs",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\SACHesController.cs",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Controllers\\SACHesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:37:42.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PHIEU_MUONController.cs",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\PHIEU_MUONController.cs",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Controllers\\PHIEU_MUONController.cs",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\PHIEU_MUONController.cs",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Controllers\\PHIEU_MUONController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:37:31.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DOC_GIAController.cs",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\DOC_GIAController.cs",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Controllers\\DOC_GIAController.cs",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\DOC_GIAController.cs",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Controllers\\DOC_GIAController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:37:21.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QUAN_TRIController.cs",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\QUAN_TRIController.cs",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Controllers\\QUAN_TRIController.cs",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\QUAN_TRIController.cs",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Controllers\\QUAN_TRIController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:35:18.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T07:29:20.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DOC_GIA.cs",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Models\\DOC_GIA.cs",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Models\\DOC_GIA.cs",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Models\\DOC_GIA.cs",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Models\\DOC_GIA.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:27:33.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\App_Start\\RouteConfig.cs",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:26:39.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T07:18:24.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T07:18:22.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Views\\Home\\About.cshtml",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T07:18:20.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:15:28.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "CNT2_LeXuanToan_2210900069\\Models\\Model1.edmx",
+              "ToolTip": "F:\\Project2\\CNT2_LeXuanToan_2210900069\\CNT2_LeXuanToan_2210900069\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "CNT2_LeXuanToan_2210900069\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-01T07:13:58.442Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿@Styles.Render("~/Content/home.css")
+@{
+    ViewBag.Title = "Home Page";  
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to Library Management System</h1>
+    <p class="lead">Easily manage books, categories, readers, borrowing records, and admin accounts.</p>
+    <hr class="my-4">
+    <p>Click on the menu items above to navigate through the system.</p>
+    <a class="btn btn-primary btn-lg" href="@Url.Action("Index", "SACHes")" role="button">Quản lý sách</a>
+</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="62f15369731a4b5997391cc5f9b8f130" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyThuVienModel.DOC_GIA" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.PHIEU_MUON" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.QUAN_TRI" Width="1.5" PointX="8.375" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.SACH" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.THE_LOAI" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__PHIEU_MUO__MaDoc__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__PHIEU_MUO__MaSac__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__SACH__MaTheLoai__2D27B809" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

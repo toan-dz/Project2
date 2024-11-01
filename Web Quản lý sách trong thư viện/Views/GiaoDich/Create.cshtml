@@ -1,0 +1,40 @@
+﻿@model Quản_Lý_Sách.Models.GiaoDich
+
+@{
+    ViewBag.Title = "Thêm giao dịch";
+}
+
+<h2>Thêm giao dịch</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MaKH)
+        @Html.TextBoxFor(model => model.MaKH, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.MaSach)
+        @Html.TextBoxFor(model => model.MaSach, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NgayMuon)
+        @Html.TextBoxFor(model => model.NgayMuon, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NgayTraDuKien)
+        @Html.TextBoxFor(model => model.NgayTraDuKien, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.NgayTraThucTe)
+        @Html.TextBoxFor(model => model.NgayTraThucTe, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    @Html.ActionLink("Quay lại", "Index")
+}

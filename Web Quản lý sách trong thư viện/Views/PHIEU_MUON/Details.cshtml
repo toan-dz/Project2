@@ -1,0 +1,58 @@
+﻿@model Web_Quản_lý_sách_trong_thư_viện.Models.PHIEU_MUON
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PHIEU_MUON</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayMuon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayMuon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayTraDuKien)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayTraDuKien)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayTraThucTe)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayTraThucTe)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DOC_GIA.HoTen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DOC_GIA.HoTen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SACH.TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SACH.TenSach)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaPhieuMuon }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

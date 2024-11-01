@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Quản_Lý_Sách.Models.GiaoDich>
+
+@{
+    ViewBag.Title = "Danh sách giao dịch";
+}
+
+<h2>Danh sách giao dịch</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>MaGD</th>
+            <th>MaKH</th>
+            <th>MaSach</th>
+            <th>NgayMuon</th>
+            <th>NgayTraDuKien</th>
+            <th>NgayTraThucTe</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaGD</td>
+                <td>@item.MaKH</td>
+                <td>@item.MaSach</td>
+                <td>@item.NgayMuon?.ToString("dd/MM/yyyy")</td>
+                <td>@item.NgayTraDuKien?.ToString("dd/MM/yyyy")</td>
+                <td>@item.NgayTraThucTe?.ToString("dd/MM/yyyy")</td>
+                <td>
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.MaGD }) |
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.MaGD }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.MaGD })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.ActionLink("Thêm giao dịch mới", "Create")

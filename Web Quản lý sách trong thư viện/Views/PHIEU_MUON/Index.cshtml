@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Web_Quản_lý_sách_trong_thư_viện.Models.PHIEU_MUON>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayMuon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayTraDuKien)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayTraThucTe)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DOC_GIA.HoTen)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SACH.TenSach)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayMuon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayTraDuKien)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayTraThucTe)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DOC_GIA.HoTen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SACH.TenSach)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaPhieuMuon }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaPhieuMuon }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaPhieuMuon })
+        </td>
+    </tr>
+}
+
+</table>

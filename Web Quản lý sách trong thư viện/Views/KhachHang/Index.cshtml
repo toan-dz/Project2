@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Quản_Lý_Sách.Models.KhachHang>
+
+@{
+    ViewBag.Title = "Danh sách độc giả";
+}
+
+<h2>Danh sách độc giả</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>MaKH</th>
+            <th>HoTen</th>
+            <th>NgaySinh</th>
+            <th>DiaChi</th>
+            <th>Email</th>
+            <th>SoDienThoai</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.MaKH</td>
+                <td>@item.HoTen</td>
+                <td>@item.NgaySinh?.ToString("dd/MM/yyyy")</td>
+                <td>@item.DiaChi</td>
+                <td>@item.Email</td>
+                <td>@item.SoDienThoai</td>
+                <td>
+                    @Html.ActionLink("Chi tiết", "Details", new { id = item.MaKH }) |
+                    @Html.ActionLink("Sửa", "Edit", new { id = item.MaKH }) |
+                    @Html.ActionLink("Xóa", "Delete", new { id = item.MaKH })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.ActionLink("Thêm độc giả mới", "Create")

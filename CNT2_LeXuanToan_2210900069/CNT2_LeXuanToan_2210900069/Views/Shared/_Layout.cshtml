@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Lê Xuân Toàn</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -17,12 +17,14 @@
             </button>
             <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
-                    <li>@Html.ActionLink("Quản lý Sách", "Index", "Sach", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Quản lý Độc Giả", "Index", "DocGia", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Phiếu Mượn", "Index", "PhieuMuon", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Quản Trị", "Index", "QuanTri", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Thể Loại Sách", "Index", "TheLoai", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Quản lý Sách", "Index", "SACHes", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Quản lý Độc Giả", "Index", "DOC_GIA", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Phiếu Mượn", "Index", "PHIEU_MUON", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Quản Trị", "Index", "QUAN_TRI", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Thể Loại Sách", "Index", "THE_LOAI", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
+               
+
             </div>
         </div>
     </nav>
@@ -30,7 +32,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+          
         </footer>
     </div>
 

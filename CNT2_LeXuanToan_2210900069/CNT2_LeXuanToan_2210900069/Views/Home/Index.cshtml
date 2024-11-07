@@ -1,13 +1,35 @@
 ﻿@Styles.Render("~/Content/home.css")
 @{
-    ViewBag.Title = "Home Page";  
+    ViewBag.Title = "Trang Chủ";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="jumbotron text-center">
-    <h1 class="display-4">Welcome to Library Management System</h1>
-    <p class="lead">Easily manage books, categories, readers, borrowing records, and admin accounts.</p>
-    <hr class="my-4">
-    <p>Click on the menu items above to navigate through the system.</p>
-    <a class="btn btn-primary btn-lg" href="@Url.Action("Index", "SACHes")" role="button">Quản lý sách</a>
-</div>
+<div class="home-container">
+    <section class="content">
+        <section class="hero-section">
+            <h1>Chào mừng đến với Thư viện của chúng tôi</h1>
+            <p>Khám phá và quản lý sách dễ dàng!</p>
+        </section>
+        <section class="features-section">
+            <div class="feature-item">
+                <h3><a href="@Url.Action("Index", "SACHes")">Quản Lý Sách</a></h3>
+                <p>Quản lý và theo dõi các loại sách.</p>
+            </div>
+            <div class="feature-item">
+                <h3><a href="@Url.Action("Index", "DOC_GIA")">Quản Lý Độc Giả</a></h3>
+                <p>Dễ dàng theo dõi và quản lý thông tin độc giả.</p>
+            </div>
+            <div class="feature-item">
+                <h3><a href="@Url.Action("Index", "PHIEU_MUON")">Phiếu Mượn</a></h3>
+                <p>Quản lý và theo dõi các phiếu mượn trả sách.</p>
+            </div>
+            <div class="feature-item">
+                <h3><a href="@Url.Action("Index", "QUAN_TRI")">Quản Trị</a></h3>
+                <p>Cấp quyền hạn và tài khoản của người quản lý.</p>
+            </div>
+            <div class="feature-item">
+                <h3><a href="@Url.Action("Index", "THE_LOAI")">Thể Loại Sách</a></h3>
+                <p>Phân loại sách theo thể loại một cách khoa học.</p>
+            </div>
+        </section>
+    </section>

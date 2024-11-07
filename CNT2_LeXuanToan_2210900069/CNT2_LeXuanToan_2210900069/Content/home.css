@@ -1,78 +1,70 @@
-﻿/* Đặt chung cho toàn bộ trang */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
+﻿.home-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f2f5; /* Màu nền nhẹ */
 }
 
-/* Điều chỉnh cho thanh điều hướng */
-.navbar {
-    background-color: #343a40;
-    padding: 1rem;
+.content {
+    width: 100%;
+    max-width: 1200px;
 }
 
-.navbar-brand {
-    font-size: 1.5rem;
-    color: #fff !important;
-    font-weight: bold;
-}
-
-.nav-link {
-    color: #dcdcdc !important;
-    margin-right: 1rem;
-}
-
-    .nav-link:hover {
-        color: #ffffff !important;
-    }
-
-/* Căn chỉnh phần nội dung chính */
-.body-content {
-    padding: 2rem;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Thiết kế phần tiêu đề */
-h1 {
-    color: #343a40;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-}
-
-/* Căn chỉnh cho phần nút */
-.btn {
-    color: #fff;
-    background-color: #007bff;
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 4px;
-}
-
-    .btn:hover {
-        background-color: #0056b3;
-        color: #fff;
-    }
-
-/* Footer */
-footer {
+.hero-section {
     text-align: center;
-    padding: 1rem;
-    background-color: #343a40;
-    color: #dcdcdc;
-    border-top: 1px solid #e7e7e7;
-    margin-top: 2rem;
+    margin-bottom: 30px;
+    background-color: #007bff; /* Màu nền cho hero section */
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .navbar-brand {
-        font-size: 1.25rem;
+    .hero-section h1 {
+        font-size: 2.5em;
+        margin: 0;
     }
 
-    .nav-link {
-        margin-right: 0.5rem;
+    .hero-section p {
+        font-size: 1.2em;
     }
+
+.features-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
+
+.feature-item {
+    background-color: white; /* Màu nền cho từng mục */
+    padding: 20px;
+    width: 220px;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #007bff; /* Viền xanh cho khung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+    .feature-item:hover {
+        transform: translateY(-5px); /* Hiệu ứng khi hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .feature-item h3 {
+        color: #007bff; /* Màu tiêu đề */
+    }
+
+    .feature-item a {
+        color: #007bff; /* Màu liên kết */
+        text-decoration: none;
+    }
+
+        .feature-item a:hover {
+            text-decoration: underline; /* Gạch chân khi hover */
+        }
+
+    .feature-item p {
+        color: #6c757d; /* Màu chữ mô tả */
+        margin: 10px 0;
+    }

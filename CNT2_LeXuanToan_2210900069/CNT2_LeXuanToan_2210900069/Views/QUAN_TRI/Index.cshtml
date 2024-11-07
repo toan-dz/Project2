@@ -1,45 +1,39 @@
 ﻿@model IEnumerable<CNT2_LeXuanToan_2210900069.Models.QUAN_TRI>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Quản Trị";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<head>
+    <link rel="stylesheet" href="~/Content/quantri.css" />
+</head>
+
+<h2>Quản Lý Quản Trị</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Thêm Mới", "Create", null, new { @class = "btn" })
 </p>
+
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.TenDangNhap)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.MatKhau)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.QuyenHan)
-        </th>
+        <th>@Html.DisplayNameFor(model => model.TenDangNhap)</th>
+        <th>@Html.DisplayNameFor(model => model.MatKhau)</th>
+        <th>@Html.DisplayNameFor(model => model.QuyenHan)</th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.TenDangNhap)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.MatKhau)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.QuyenHan)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MaQuanTri }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MaQuanTri }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MaQuanTri })
-        </td>
-    </tr>
-}
-
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.TenDangNhap)</td>
+            <td>@Html.DisplayFor(modelItem => item.MatKhau)</td>
+            <td>@Html.DisplayFor(modelItem => item.QuyenHan)</td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.MaQuanTri }, new { @class = "btn-edit" }) |
+                @Html.ActionLink("Chi tiết", "Details", new { id = item.MaQuanTri }, new { @class = "btn-details" }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.MaQuanTri }, new { @class = "btn-delete" })
+            </td>
+        </tr>
+    }
 </table>

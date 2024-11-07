@@ -1,33 +1,35 @@
 ﻿@model IEnumerable<CNT2_LeXuanToan_2210900069.Models.THE_LOAI>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Quản Lý Thể Loại Sách";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<head>
+    <link rel="stylesheet" href="~/Content/quantri.css" />
+</head>
+
+<h2>Quản Lý Thể Loại Sách</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Thêm Mới", "Create", null, new { @class = "btn" })
 </p>
+
 <table class="table">
     <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.TenTheLoai)
-        </th>
+        <th>@Html.DisplayNameFor(model => model.TenTheLoai)</th>
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.TenTheLoai)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.MaTheLoai }) |
-            @Html.ActionLink("Details", "Details", new { id=item.MaTheLoai }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.MaTheLoai })
-        </td>
-    </tr>
-}
-
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.TenTheLoai)</td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.MaTheLoai }, new { @class = "btn-edit" }) |
+                @Html.ActionLink("Chi tiết", "Details", new { id = item.MaTheLoai }, new { @class = "btn-details" }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.MaTheLoai }, new { @class = "btn-delete" })
+            </td>
+        </tr>
+    }
 </table>
